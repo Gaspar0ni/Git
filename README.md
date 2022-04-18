@@ -17,20 +17,23 @@ cd ..
 cd ../
 cd nome_do_proximo_diretorio
 
-git branch -M main
+#### git branch -M main
 git branch -M master
 
-git add .
+#### git add .
 git add -A
 git add nome_do_arquivo_e_extensao
-git commit -m "comentario_do_commit"
+#### git commit -m "comentario_do_commit"
 git push
 
 git commit -am "comentario_do_commit"
 git push origin master
 
-git remote add origin endereco_do_repositorio
-git push -u origin master
+#### git checkout -b nome_da_feature
+#### git merge nome_da_branch_mais_atualizada
+
+#### git remote add origin endereco_do_repositorio.git
+#### git push -u origin master
 git pull -u origin master
 
 git pull
