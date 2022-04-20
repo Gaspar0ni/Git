@@ -2,6 +2,19 @@
 
 [Site de comandos GIT](https://education.github.com/git-cheat-sheet-education.pdf)
 
+----------------------------------------------------------------
+[Comando importante](https://laravel.com/docs/7.x/migrations)
+
+The --table and --create options may also be used to indicate the name of the table and whether or not the migration will be creating a new table. These options pre-fill the generated migration stub file with the specified table:
+
+php artisan make:migration create_users_table --create=users
+ 
+php artisan make:migration add_votes_to_users_table --table=users
+
+If you would like to specify a custom output path for the generated migration, you may use the --path option when executing the make:migration command. The given path should be relative to your application's base path.
+
+----------------------------------------------------------------
+
 git config --global user.name "seu_nome"
 git config --global user.email "you@example.com"
 
