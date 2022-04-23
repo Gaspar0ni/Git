@@ -1,5 +1,8 @@
 # Comandos git
 
+### importante clone de git forkado: git clone https://github.com/Gaspar0ni/test
+
+
 [Site de comandos GIT](https://education.github.com/git-cheat-sheet-education.pdf)
 
 ----------------------------------------------------------------
